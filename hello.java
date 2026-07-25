@@ -18,3 +18,36 @@ class hello {
         }
     }
 }
+
+// even or odd
+import java.util.Scanner;
+ class hello {
+     public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter a number: ");
+         long num = sc.nextLong();
+
+         if(num%2==0) {
+             System.out.println("Even");
+         }
+         else {
+             System.out.println("odd");
+            
+         }
+     }
+  }
+
+// to find num is 5 or not
+import java.util.Scanner;
+ class hello {
+     public static void main(String[] args) {
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter a number: ");
+         int num = sc.nextInt();
+         if (num==5) {
+             System.out.println("The number is 5");
+         } else {
+             System.out.println("The number is not 5");
+         }
+     }
+  }
