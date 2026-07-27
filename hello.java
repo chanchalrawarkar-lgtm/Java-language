@@ -91,3 +91,28 @@ class hello {
                 System.out.println(sum);
             }
         }
+
+class hello {
+        public static void main (String args[]) {
+            int[] num= {10,20,30,40,50};
+            int sub=0;
+            for(int i=0; i<num.length; i++) {
+                sub=sub+num[i];
+            }
+                System.out.println(sub);
+            }
+        }
+
+class hello {
+    public static void main (String[] args) {
+     int[] num= {10,20,30,40,70};
+        int largest=num[0];
+        for(int i=0; i<num.length; i++) {
+            if(num[i]>largest) {
+                largest=num[i];
+            }
+        }
+            System.out.println(largest);
+        }
+    }
+        
