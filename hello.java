@@ -564,4 +564,15 @@ class hello {
     }
 }
 
+class hello {
+    public static void main(String[] args) {
+        int a=6,b=4;
+        for(int i=a; i<=a*b; i+=a) {
+            if(i%b==0) {
+             System.out.print(i+" ");
+            }
+        }
+}
+}
+
 
