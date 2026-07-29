@@ -313,10 +313,113 @@
 //     }
 //  }
 
-class hello{
-    public static void main(String[] args) {
-        for(int x=0; x<=50; x+=3) {
-        System.out.println(x);
+// class hello{
+//     public static void main(String[] args) {
+//         for(int x=0; x<=50; x+=3) {
+//         System.out.println(x);
+//         }
+//     }
+// }
+
+// pattern
+// class hello {
+//     public static void main(String[] args) {
+//         for(int i=1; i<=5; i++) {
+//             for(int j=1; j<=i; j++) {
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// class hello {
+//     public static void main(String[] args) {
+//         for(int i=1; i<=5; i++) {
+//             for(int j=1; j<=i; j++) {
+//                 System.out.print(j+" ");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+// class hello {
+//     public static void main(String[] args) {
+//         int a=6,b=4;
+//         for(int i=a; i<=a*b; i+=a) {
+//             if(i%b==0) {
+//              System.out.print(i+" ");
+//             }
+//         }
+// }
+// }
+
+// class hello {
+//     public static void main(String[] args) {
+       
+//         for(int i=1; i<=5; i++) {
+         
+//              System.out.print(i+" ");
+//             }
+//         }
+// }
+
+// class hello {
+//      public static void main(String[] args) {
+//          int i =1;
+//      while(i<=4)
+//      {
+//          System.out.println("hi ");
+//          i++;
+//      }    
+//  }
+//  }
+
+// class hello {
+//     public static void main(String[] args) {
+//     System.out.println("Hello, World!");
+// }
+// }
+
+// class hello {
+//     public static void main (String args[]) {
+//         int[] num= {10,20,30,40,50};
+//         System.out.println(num[0]);
+//         System.out.println(num[2]);
+//     }
+// }
+
+//  class hello {
+//         public static void main (String args[]) {
+//             int[] num= {10,20,30,40,50};
+//             int sum=0;
+//             for(int i=0; i<num.length; i++) {
+//                 sum=sum+num[i];
+//             }
+//                 System.out.println(sum);
+//             }
+//         }
+
+// class hello {
+//     public static void main (String args[]) {
+//         int[] num= {10,20,30,40,70};
+//         int largest=num[0];
+//         for(int i=0; i<num.length; i++) {
+//             if(num[i]>largest) {
+//                 largest=num[i];
+//             }
+//         }
+//             System.out.println(largest);
+//         }
+//     }
+
+class hello {
+        public static void main (String args[]) {
+            int[] num= {10,20,30,40};
+            for(int i=0;i<num.length;i++){
+                System.out.println(num[i]);
+            }
         }
-    }
-}
+ }
+
