@@ -589,3 +589,21 @@ class hello {
         }
     }
 }
+
+//ip op of array
+import java.util.Scanner;
+class hello {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("size");
+        int size=sc.nextInt();
+        int marks[] = new int[size];
+        for (int i = 0; i <size; i++) {
+            System.out.println("input value");
+            marks[i]=sc.nextInt();
+        }
+        for(int i=0;i<2;i++) {
+        System.out.println(marks[i]);
+        }
+    }
+}
