@@ -636,3 +636,15 @@ class hello {
         myName();
     }
 }
+
+import java.util.Scanner;
+class hello {
+    public static void myName(String name) {
+        System.out.println(name);
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String name = sc.next();
+        myName(name);
+    }
+}
