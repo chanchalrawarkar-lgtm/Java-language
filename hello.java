@@ -627,3 +627,12 @@ class hello {
         }
     }
     }
+
+class hello {
+    public static void myName() {
+        System.out.println("Chanchal");
+    }
+    public static void main(String[] args) {
+        myName();
+    }
+}
