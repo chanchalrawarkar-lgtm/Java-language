@@ -663,3 +663,22 @@ class hello {
         System.out.println(add);
     }
 }
+
+// to find factorical
+import java.util.Scanner;
+class hello {
+    public static int printFactorical(int n) {
+        int factorical=1;
+        for(int i=n; i>=1; i--) {
+            factorical=factorical*i;
+        }
+        System.out.println(factorical);
+        return 0;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        printFactorical(n);
+    }
+}
